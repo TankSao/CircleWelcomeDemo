@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <com.example.circlewlecomedemo.view.CircleWelComeView
+        android:id="@+id/circleView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        app:circle_out_color="@color/outColor"
+        app:circle_in_Color="@color/inColor"
+        app:circle_in_image="@android:drawable/ic_menu_search"
+        app:circle_radius="150"
+        app:max_width="500"
+        app:speed="8"
+        app:circle_width="4"/>
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/start"
+        android:text="启动"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        />
+    
+
+</RelativeLayout>
